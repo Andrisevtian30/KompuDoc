@@ -17,12 +17,13 @@
       <button type="button" class="btn ghost" id="logoutBtn">Logout</button>
     </header>
 
-    <!-- Placeholder menu, isi fiturnya menyusul -->
     <div class="menu">
-      <div><strong>Konsultasi</strong><span>Chat dengan teknisi</span></div>
-      <div><strong>Troubleshooting</strong><span>Panduan cek masalah</span></div>
-      <div><strong>Riwayat</strong><span>Tiket sebelumnya</span></div>
+      <button type="button" data-tab="konsultasi"><strong>Konsultasi</strong><span>Chat dengan teknisi</span></button>
+      <button type="button" data-tab="troubleshooting"><strong>Troubleshooting</strong><span>Panduan cek masalah</span></button>
+      <button type="button" data-tab="riwayat"><strong>Riwayat</strong><span>Tiket sebelumnya</span></button>
     </div>
+
+    <section id="panel" hidden></section>
   </main>
 
   <script src="js/home.js"></script>
